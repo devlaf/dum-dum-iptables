@@ -1,11 +1,11 @@
 # About
 General-purpose iptables config templates and instructions for setup.
 
-I've found that 9 out of 10 times I've set up iptables I start with the same basic goals and wind up copying verbatim
+Most times I've set up iptables I start with the same basic goals and wind up copying verbatim
 the vast majority of these rules from some previous setup.  So I'm formalizing them here, mostly as a tool/reminder for
 myself whenever I do this next.
 
-These rules open ports for ssh (following port knocking,) 443 and 80. Other incoming traffic is dropped.
+These rules open ports for ssh (following port knocking,) 443 and 80. Other new input traffic is dropped.
 
 # Notes
 These resources are helpful:
