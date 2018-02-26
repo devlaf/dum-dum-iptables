@@ -38,7 +38,7 @@ then just enabling ```iptables.service``` should do the trick and everything is 
 
 ### Enable rules on startup (Debian)
 
-Create a ```/etc/network/if-pre/up.d/iptables``` :
+Create a ```/etc/network/if-pre-up.d/iptables``` :
 
 ```
 /sbin/iptables-restore < /etc/iptables/iptables.up.rules
