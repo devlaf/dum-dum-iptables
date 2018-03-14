@@ -41,8 +41,14 @@ then just enabling ```iptables.service``` should do the trick and everything is 
 Create a ```/etc/network/if-pre-up.d/iptables``` :
 
 ```
+#!/bin/sh
 /sbin/iptables-restore < /etc/iptables/iptables.up.rules
-/sbin/ipt6ables-restore < /etc/iptables/ip6tables.up.rules
+/sbin/ip6tables-restore < /etc/iptables/ip6tables.up.rules
+```
+
+Update the permissions:
+```
+chmod +x /etc/network/if-pre-up.d/iptables
 ```
 
 ### Setup fail2ban
