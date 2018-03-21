@@ -1,11 +1,15 @@
 # About
-General-purpose iptables config templates and instructions for setup.
+This repo contains general-purpose iptables config templates and instructions for setup.
 
 Most times I've set up iptables I start with the same basic goals and wind up copying verbatim
 the vast majority of these rules from some previous setup.  So I'm formalizing them here, mostly as a tool/reminder for
 myself whenever I do this next.
 
 These rules open ports for ssh (following port knocking,) 443 and 80. Other new input traffic is dropped.
+
+![Ain't no rules says the robot can't play soccer](https://gist.githubusercontent.com/devlaf/c6083ebf1d70f5b405dfaceddaeb4860/raw/48eb2f6ec3599da99b3eee3e4201dc812df9c3bf/soccer.gif)
+
+^^^ don't be smart! ^^^
 
 # Notes
 These resources are helpful:
